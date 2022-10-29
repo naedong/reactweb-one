@@ -4,6 +4,10 @@
 
 ## 유니티 게임은 게임에 넣을 예정
 
+비디오는 파일압축을 풀어야 합니다. 
+
+API를 쓰지않고 홈페이지 외부를 꾸미기 위해 만든 것입니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
