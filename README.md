@@ -1,3 +1,9 @@
+# React 홈페이지
+
+## 첫 페이지 로딩은 애니메이션이며
+
+## 유니티 게임은 게임에 넣을 예정
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
