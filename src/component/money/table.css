@@ -1,0 +1,10 @@
+table thead { float:left; }
+table thead tr, 
+table thead tr th { display:block;}
+
+table tbody { display:block; oveflow-x:hidden; white-space:nowrap; }
+table tbody tr { display:inline-block; }
+table tbody tr td { display:block;}
+
+table {
+}

@@ -1,0 +1,28 @@
+.changeColorBtn{
+       font-size: 15px;
+    width: 96%;
+    background: #fd1616;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    /* float: right; */
+   
+    cursor: pointer;
+}
+
+.loginBtn{
+       font-size: 15px;
+    width: 96%;
+    background: gray;
+    color: white;
+    border: none;
+    padding: 10px;
+     pointer-events: none; 
+    text-transform: uppercase;
+    border-radius: 2px;
+    /* float: right; */
+    cursor: pointer;
+}
+

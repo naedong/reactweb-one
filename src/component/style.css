@@ -1,0 +1,108 @@
+.body {
+	
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	color: #fff;
+}
+
+.body:before {
+	content: "";
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://clipartimage.net/thumbs/1495916688stars-png-with-transparent-background.png");
+	background-size: 25%;
+}
+.main {
+	overflow: hidden;
+	color: #fff;
+	margin: 0;
+	background: #04000a;
+	perspective: 1100px;
+	width: 100vw;
+	height: 100vh;
+}
+.main:before{
+	content: "";
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://clipartimage.net/thumbs/1495916688stars-png-with-transparent-background.png");
+	background-size: 25%;
+}
+.wrap {
+	width: 100vw;
+	height: 100vh;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transition: ease-out 0.2s;
+	transform-origin: center;
+	transform: rotateX(-2.3deg) rotateY(-5.5deg);
+}
+.moon {
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 25px #fff;
+}
+.imageHolder {
+	position: absolute;
+	overflow: hidden;
+}
+.imgs {
+	position: absolute;
+	bottom: 15%;
+	width: 270%;
+}
+.rotY {
+	transform: rotateY(180deg);
+	margin-left: -7%;
+}
+.bg0 {
+	transform: translateZ(-1200px) scale(1.77) translateX(-30px) translateY(23px);
+}
+.bg1 {
+	filter: contrast(0);
+	transform: translateZ(-1000px) scale(1.62) translateX(-26px) translateY(21px);
+}
+.bg2 {
+	filter: brightness(3);
+	transform: translateZ(-800px) scale(1.465) translateX(-22px) translateY(17px);
+}
+.bg3 {
+	filter: contrast(0.7);
+	transform: translateZ(-600px) scale(1.31) translateX(-16px) translateY(13px);
+}
+.bg4 {
+	filter: contrast(0.85);
+	transform: translateZ(-400px) scale(1.158) translateX(-9px) translateY(8px);
+}
+.bg5 {
+	transform: translateZ(-200px);
+	border: 10px solid #fff;
+	filter: drop-shadow(0px 0px 10px #000);
+}
+.midTree img,
+.midTree2 img {
+	width: 130%;
+	margin-bottom: -15%;
+	margin-left: -90%;
+}
+.midTree2 img {
+	margin-left: 40%;
+}
+.frontTree img {
+	width: 520%;
+	margin-bottom: -90%;
+	margin-left: -145%;
+}
+.wolf img {
+	width: 60%;
+	margin-bottom: -27%;
+	margin-left: 25%;
+}
